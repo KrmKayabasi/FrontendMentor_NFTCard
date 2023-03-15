@@ -1,0 +1,140 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family:'Outfit', sans-serif;
+}
+
+body{
+background-color: #0D192B;
+}
+
+.card{
+background-color: #14253D;
+border: solid;
+border-color: #14253D;
+border-radius: 20px;
+padding: 20px;
+display: inline-block;
+position: absolute;
+top: 50%;
+left:50%;
+transform: translate(-50%, -50%);
+align-items: center;
+justify-items: center;
+}
+
+.NFT{
+width: 300px;
+border: solid;
+border-style: none;
+border-radius: 10px;
+margin-bottom: 5px;
+cursor: pointer;
+}
+
+
+.info *:not(.price, .time){
+margin: 5px 0px 5px 0px;
+}
+
+h2{
+    cursor: pointer;
+}
+
+.title{
+color: white;
+font-weight: 500;
+}
+
+.authortext p{
+    color: #8BACDA;
+
+}
+.authortext a{
+color: white;
+text-decoration: none;
+}
+
+.des{
+color: #8BACDA;
+font-size: 18px;
+font-weight: 300;
+}
+
+.price{
+display:flex ;
+color: #00FFF7;
+font-size: 18px;
+
+font-weight: bold;
+
+}
+.price *{
+padding-right:  5px;
+}
+
+.time{
+color: #8BACDA;
+display: inline-flex;
+font-size: 18px;
+position: absolute;
+right: 0px;
+
+
+}
+
+.pritime{
+display: flex;
+position: relative;
+}
+
+.lefttime{
+padding-left:  5px;
+}
+
+.author{
+color: white;
+display: inline-flex;
+border-top: solid;
+border-width: 1px;
+border-color: #2F415B;
+width: 100%;
+padding-top: 15px;
+position: relative;
+}
+
+/* .nobold{
+color: #8BACDA;
+display: inline-block;
+margin-right: ;
+   
+}
+
+.bold{
+color: white;
+display: inline-block;
+padding-left: 0px;
+cursor: pointer;
+} */
+
+.avatar{
+width:40px;
+border: solid;
+border-color: white;
+border-radius: 50%;
+
+}
+
+.icon-clock{
+    width: 23.2px;
+    height: 23.2px;
+}
+
+.authortext{
+padding-left: 20px;
+top: 20px;
+left: 35px;
+position: absolute;
+
+}
