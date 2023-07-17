@@ -7,6 +7,7 @@ It's a solution of Frontend Mentor Project(NFT Card)
 
 
 You can try the challenge yourself --> [FrontendMentor_NFTCard](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U)
+
 Live Demo is available --> [Demo](https://melodious-elf-7b4fbb.netlify.app/)
 
 
